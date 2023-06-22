@@ -1,0 +1,31 @@
+.circular{
+    margin-left: 50px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 9999px;
+}
+
+.circular img {
+    width: 100%;
+    height: auto;
+}
+
+
+.item2 img{
+    margin-top: -50px;
+    margin-right: -100px;
+}
+
+.item3 img{
+    margin-top: -70px;
+}
+
+.item4 img{
+    margin-top: -12px;
+}
+
+.item4 p{
+    align-items: center;
+}
