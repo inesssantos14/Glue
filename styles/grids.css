@@ -193,7 +193,7 @@
 }
 
 .container-album{
-    margin: 6rem; 
+    margin-left: 6rem; 
     display: flex;
     align-items: center;
     padding: 3rem;
@@ -216,7 +216,7 @@
     grid-area: alb;
 }
 
-.caroussel {
+.car {
     grid-area: car;
 }
 
