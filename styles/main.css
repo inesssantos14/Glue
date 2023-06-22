@@ -8,6 +8,11 @@
 @import url('header.css');
 @import url('grids.css');
 @import url('media.css');
+@import url('reviews.css');
+@import url('features.css');
+@import url('login.css');
+@import url('carousel.css');
+
 
 :root {
     --white: #FAF8F0;
@@ -67,22 +72,6 @@ h1{
     margin:2rem;
     min-height: 75px;
     padding: 0.5rem;
-}
-
-.review1 h5, .review2 h5, .review3 h5, .review4 h5{
-    margin-top: 20px;
-}
-
-.item4 p{
-    align-items: center;
-}
-
-.item1 img, .item2 img, .item3 img, .item4 img{
-    margin-left: 50px;
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
-    border-radius: 9999px;
 }
 
 .item-split3 img{
