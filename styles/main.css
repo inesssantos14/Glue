@@ -4,6 +4,8 @@
 
 @import url('utilities.css');
 @import url('menu.css');
+@import url('footer.css');
+@import url('header.css');
 
 :root {
     --white: #FAF8F0;
@@ -12,7 +14,8 @@
     --pink: #FAD6CF;
 
     --green-gradient: rgba(109, 148, 121, 0.95);
-    --pink-gradient: rgba(250, 214, 207, .95);
+    --pink-gradient1: rgba(250, 214, 207, .60);
+    --pink-gradient2: rgba(250, 214, 207, .95);
     --white-gradient: rgba(250, 248, 240, .95);
 }
 
@@ -24,8 +27,8 @@
 
 body {
     background: linear-gradient(
-        75deg, 
-        var(--pink-gradient) 34%, 
+        195deg, 
+        var(--pink-gradient1) 45%, 
         var(--white-gradient)
     );
     color: var(--black);
@@ -47,6 +50,9 @@ ol, ul {
     list-style: none;
 }
 
+h1{
+    font: 600 3rem Karla
+}
 
 .container {
     width: 1140px;
@@ -56,8 +62,10 @@ ol, ul {
 
 img {
     width: 35%;
+    border-radius: 30px;
    }
 
 video {
     width: 35%;
+    border-radius: 30px;
  }
