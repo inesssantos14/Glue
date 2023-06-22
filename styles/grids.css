@@ -1,0 +1,89 @@
+.container {
+    margin: 6rem 6rem 6rem 0; 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "cola cola stopmotion stopmotion"
+      "f-title f-title f-title f-title"
+      "f1 f2 f3 f4"
+      "r_title r_title r_title r_title"
+      "r1 r2 r3 r4"
+      "app app coleciona coleciona";
+}
+
+.item-split1 {
+    grid-area: cola;
+  }
+
+.item-split2{
+    grid-area: stopmotion;
+  }
+  .item-b {
+    grid-area: main;
+  }
+  .item-c {
+    grid-area: sidebar;
+  }
+  .item-d {
+    grid-area: footer;
+  }
+
+.item-title{
+    grid-area: f-title;
+}
+
+.item1{
+    grid-area: f1
+}
+
+.item2{
+    grid-area: f2
+}
+
+.item3{
+    grid-area: f3
+}
+
+.item4{
+    grid-area: f4
+}
+
+.review-title{
+    grid-area: r_title;
+}
+
+.review1 {
+    grid-area: r1;
+    padding: 2.5rem;
+}
+
+.review2 {
+   grid-area: r2;
+   padding: 2.5rem;
+}
+
+.review3 {
+    grid-area: r3;
+    padding: 2.5rem;
+}
+.review4 {
+    grid-area: r4;
+    padding: 2.5rem;
+}
+
+.item-split3 {
+    grid-area: app;
+}
+
+
+.item-split4 {
+    grid-area: coleciona;
+    margin-left: 75px;
+}
+
