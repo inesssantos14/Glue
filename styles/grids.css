@@ -1,9 +1,7 @@
-.container {
-    margin: 6rem 6rem 6rem 0; 
-
+.container-index {
+    margin: 6rem; 
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -192,4 +190,56 @@
 
 .envelope {
     grid-area: envelope;
+}
+
+.container-album{
+    margin: 6rem; 
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "title title title title title title"
+      "alb alb alb car car car"
+      "music music music date date date"
+      "out out out out out out"
+      "alb1 alb1 alb2 alb2 alb3 alb3";
+}
+
+.album-title {
+    grid-area: title;
+  }
+
+.album {
+    grid-area: alb;
+}
+
+.caroussel {
+    grid-area: car;
+}
+
+.music {
+    grid-area: music;
+}
+
+.data {
+    grid-area: date;
+}
+
+.outros-title {
+    grid-area: out;
+}
+
+.album1 {
+    grid-area: alb1;
+}
+
+.album2 {
+    grid-area: alb2;
+}
+
+.album3 {
+    grid-area: alb3;
 }
