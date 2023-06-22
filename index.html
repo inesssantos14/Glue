@@ -16,13 +16,29 @@
                     <li><a href="#"><img src="assets/logo.png"></a></li>
                     <li><a class="btn" href="comunidade.html">Comunidade</a></li>
                     <li><a class="btn" href="sobre.html">Sobre</a></li>
-                    <li><a href="#"><i class="fa-solid fa-user fa-2xl"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-user fa-2xl  button class" onclick="openForm()"></i></li>
                   </ul>
+                  <div class="form-popup" id="myForm">
+                    <form class="form-container">
+                      <i class="fa-solid fa-xmark fa-2xl" onclick="closeForm()"></i>
+                      <h1 class="center">Login</h1>
+                      <div>
+                      <label for="email"><b>Email</b></label>
+                      <input type="text" placeholder="Coloque o seu E-mail" name="email" required>
+                    </div>
+                  <div>
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Coloque a sua Password" name="psw" required>
+                    </div>
+                      <button type="submit" class="btn">Iniciar Sessão</button>
+        
+                    </form>
+                  </div>
                 </nav>
               </div>
         
               <header>
-                <div class="container">
+                <div class="container-index">
                   <div class="item-split1">
                     <h1 class="center text-center">Cola tudo o que alguma vez criaste</h1>
                     <a class="btn center" href="#app">Começa agora a tua viagem para o futuro</a>
@@ -37,27 +53,27 @@
         
               <section>
                 <h1 class="item-title center">O QUE PODES GUARDAR PARA O FUTURO</h1>
-                <div class="container">
+                <div class="container-index">
                   <div class="item1">
-                    <img class="center" src="assets/caderno.png">
+                    <div class="circular" ><img class="center" src="assets/caderno.png"></div>
                     <p class="feature center  text-center">Escreve o que tiveres </br>na mente</p>
                   </div>
                   <div class="item2">
-                    <img class="center" src="assets/camera.png">
+                    <div class="circular" ><img class="center" src="assets/camera.png"></div>
             <p class="feature center text-center">Fotografa os momentos</br> mais felizes</p>
                   </div>
                   <div class="item3">
-                    <img class="center" src="assets/fone.png">
+                    <div class="circular" ><img class="center" src="assets/fone.png"></div>
             <p class="feature center text-center">Capta uma mensagem </br>falada ou música</p>
             </div>
                   <div class="item4">
-                    <img class="center" src="assets/cassete.png">
+                    <div class="circular" ><img class="center" src="assets/cassete.png"></div>
             <p class="feature center text-center">Filma o teu dia a dia</p>
                   </div>
                 </div>
               </section>
         
-              <section class="container">
+              <section class="container-index">
                 <h1 class="center review-title">REVIEWS</h1>
                 <div class="review1 feature"> 
                   <p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</p>
@@ -80,7 +96,7 @@
                 </div>
               </section>
         
-              <section id="app" class="container">
+              <section id="app" class="container-index">
                 <div class="item-split3 center">
                   <img src="assets/app_sem_fundo.png">
                 </div>
@@ -100,6 +116,7 @@
                 <div class="left">
                   <a href="#"><img src="assets/logo.png"></a>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <br>
                   <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
                   <a href="#"><i class="fa-brands fa-pinterest-p fa-xl"></i></a>
                   <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
@@ -112,6 +129,8 @@
                         <input type="text" placeholder="Escreve o teu e-mail" name="email">
         
                         <ul class="errors"></ul>
+
+                        <br>
         
                         <button type="submit" class="btn">Subscrever</button>
                     </form>

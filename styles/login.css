@@ -1,0 +1,32 @@
+.form-popup {
+    display: none;
+    position: fixed;
+  }
+  
+  .form-container {
+    width: 50rem;
+    height: 25rem;
+    border-radius: 35px;
+    padding: 5rem;
+    background-color: var(--green);
+    border: none;
+  
+  }
+  
+  .form-container input[type=text], .form-container input[type=password] {
+     padding: 15px;
+    height: 3.125rem;
+    border-radius: 9999px;
+    font-size: 0.8rem !important;
+    font: 1.125rem Nunito, sans-serif;
+    min-width: 170px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: var(--white);
+  }
+  
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color:#ede6e6;
+    outline: none;
+  }
+  
