@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;700;800&family=Nunito:wght@300;400;500;700;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+
+@import url('utilities.css');
+@import url('menu.css');
+@import url('footer.css');
+@import url('header.css');
+
+:root {
+    --white: #FAF8F0;
+    --black: #000001;
+    --green: #6D9479;
+    --pink: #FAD6CF;
+
+    --green-gradient: rgba(109, 148, 121, 0.95);
+    --pink-gradient1: rgba(250, 214, 207, .60);
+    --pink-gradient2: rgba(250, 214, 207, .95);
+    --white-gradient: rgba(250, 248, 240, .95);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(
+        195deg, 
+        var(--pink-gradient1) 45%, 
+        var(--white-gradient)
+    );
+    color: var(--black);
+    font: 400 1.125rem Nunito, sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol, ul {
+    padding: 0;
+    list-style: none;
+}
+
+h1{
+    font: 600 3rem Karla
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+img {
+    width: 35%;
+    border-radius: 30px;
+   }
+
+video {
+    width: 35%;
+    border-radius: 30px;
+ }
