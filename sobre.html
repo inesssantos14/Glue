@@ -16,49 +16,65 @@
         <li><a href="#"><img src="assets/logo.png"></a></li>
         <li><a class="btn" href="comunidade.html">Comunidade</a></li>
         <li><a class="btn" href="sobre.html">Sobre</a></li>
-        <li><a href="#"><i class="fa-solid fa-user fa-2xl"></i></a></li>
-      </ul>
+        <li><a href="#"><i class="fa-solid fa-user fa-2xl" onclick="openForm()"></i></a></li>
+    </ul>
+          <div class="form-popup" id="myForm">
+            <form class="form-container">
+              <i class="fa-solid fa-xmark fa-2xl" onclick="closeForm()"></i>
+              <h1 class="center">Login</h1>
+              <div>
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Coloque o seu E-mail" name="email" required>
+            </div>
+          <div>
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Coloque a sua Password" name="psw" required>
+            </div>
+              <button type="submit" class="btn">Iniciar Sessão</button>
+    
+            </form>
+          </div>
     </nav>
   </div>
 
   <header>
-    <div class="container">
-      <div>
+    <div class="container-sobre">
+     <div class="quem-somos">
         <h1>Quem somos</h1>
         <h5>Descrição do conceito</h5>
       </div>
       <div>
-        <img src="assets/fitacola.png"></img>
+        <img class="video tape" src="assets/fitacola.png"></img>
       </div>
     </div>
   </header>
-  <section>
-    <div>
-    <ul class="timeline">
-        <li>
-            <span class="title">University</span>
-            <span class="date">2004-2008</span>
-            Computer Engineering Lorem Ipsum
-        </li>
-        <li>
-            <span class="title">University</span>
-            <span class="date">2004-2008</span>
-            Computer Engineering Lorem Ipsum
-        </li>
-        <li>
-            <span class="title">University</span>
-            <span class="date">2004-2008</span>
-            Computer Engineering Lorem Ipsum
-        </li>
+  <section class="container-sobre">
+    <div class="timeline">
+      <ul class="timeline">
+          <li>
+              <span class="title">University</span>
+              <span class="date">2004-2008</span>
+              Computer Engineering Lorem Ipsum
+          </li>
+          <li>
+              <span class="title">University</span>
+              <span class="date">2004-2008</span>
+              Computer Engineering Lorem Ipsum
+          </li>
+          <li>
+              <span class="title">University</span>
+              <span class="date">2004-2008</span>
+              Computer Engineering Lorem Ipsum
+          </li>
     </ul>
     </div>
-    <div>
+    <div class="brandkit">
         <img src="assets/app.png">
     </div>
     </section>
 
-    <section>
-        <div>
+    <section class="container-sobre">
+        <div class="questions">
             <h4>Pergunta 1</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum voluptatem voluptates possimus aliquam earum ipsa repellendus reiciendis cum, facilis iusto. Nemo sequi itaque aperiam voluptatibus tempore facilis amet cupiditate!</p>
             <h4>Pergunta 2</h4>
@@ -69,7 +85,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum voluptatem voluptates possimus aliquam earum ipsa repellendus reiciendis cum, facilis iusto. Nemo sequi itaque aperiam voluptatibus tempore facilis amet cupiditate!</p>
 
         </div>
-        <div>
+        <div class="envelope">
             <img src="assets/envelope.png">
         </div>
     </section>

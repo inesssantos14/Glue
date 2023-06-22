@@ -16,75 +16,100 @@
             <li><a href="#"><img src="assets/logo.png"></a></li>
             <li><a class="btn" href="comunidade.html">Comunidade</a></li>
             <li><a class="btn" href="sobre.html">Sobre</a></li>
-            <li><a href="#"><i class="fa-solid fa-user fa-2xl"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-user fa-2xl" onclick="openForm()"></i></a></li>
           </ul>
+          <div class="form-popup" id="myForm">
+            <form class="form-container">
+              <i class="fa-solid fa-xmark fa-2xl" onclick="closeForm()"></i>
+              <h1 class="center">Login</h1>
+              <div>
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Coloque o seu E-mail" name="email" required>
+            </div>
+          <div>
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Coloque a sua Password" name="psw" required>
+            </div>
+              <button type="submit" class="btn">Iniciar Sessão</button>
+    
+            </form>
+          </div>
         </nav>
       </div>
 
-      <div>
-        <h1>Título da página</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eum accusamus, voluptas tempora doloribus dolore impedit aspernatur enim sed mollitia labore porro nisi vero a ut fuga molestias quod nostrum.</p>
-
+      
+      <div class="container-comunidade">
+        <div class="page-title">
+          <h1>Comunidade</h1> </div>
+        <div class="page-title"></div>
+          <p>Um olhar sobre algumas das memórias mais marcantes dos nossos viajantes no tempo.</p>
+        </div>
       </div>
 
       <section>
-        <article>
-            <div>
-                <img src="genesis.png">
+        <article class="container-comunidade">
+            <div class="colagem-1">
+                <img class="img-colagem" src="assets/genesis.png">
             </div>
-            <div>
+            <div class="info-1">
                 <p>DATA DE PUBLICAÇÃO</p>
-                <p>CRIADO POR</p>
-                <p>ABRIL 2022<p>
+                <p>@joanagomes</p>
+                <p>ABRIL 2023<p>
             </div>
-            <div>
+            <div class="name-1">
                 <h1>Génesis</h1>
-                <button class="btn"><a href="genesis.html">Explorar este álbum</a></button>
+                <br>
+                <a class="btn" href="genesis.html">Explorar este álbum</a>
             </div>
         </article>
-        <article>
-            <div>
-                <img src="fragmentos.png">
+        <article class="container-comunidade">
+            <div class="colagem-2">
+                <img class="img-colagem" src="assets/fragmentos.png">
             </div>
-            <div>
+            <div class="info-2">
                 <p>DATA DE PUBLICAÇÃO</p>
-                <p>CRIADO POR</p>
-                <p>ABRIL 2022<p>
+                <p>@josetavares_</p>
+                <p>20-27 FEVEREIRO 2022<p>
             </div>
-            <div>
+            <div class="name-2">
                 <h1>Fragmentos</h1>
-                <button class="btn"><a href="fragmentos.html">Explorar este álbum</a></button>
+                <br>
+                <a class="btn" href="fragmentos.html">Explorar este álbum</a>
             </div>
         </article>
-        <article>
-            <div>
-                <img src="ultimamente.png">
+        <article class="container-comunidade">
+            <div class="colagem-3">
+                <img class="img-colagem" src="assets/ultimamente.png">
             </div>
-            <div>
+            <div class="info-3">
                 <p>DATA DE PUBLICAÇÃO</p>
-                <p>CRIADO POR</p>
-                <p>ABRIL 2022<p>
+                <p>@susanasantos</p>
+                <p>JUNHO 2023<p>
             </div>
-            <div>
+            <div class="name-3">
                 <h1>Ultimamente</h1>
-                <button class="btn"><a href="ultimamente.html">Explorar este álbum</a></button>
+                <br>
+                <a class="btn" href="ultimamente.html">Explorar este álbum</a>
             </div>
         </article>
-        <article>
-            <div>
-                <img src="eterno.png">
+        <article class="container-comunidade">
+            <div class="colagem-4">
+             <img class="img-colagem" src="assets/eterno.png">
             </div>
-            <div>
+            <div class="info-4">
                 <p>DATA DE PUBLICAÇÃO</p>
-                <p>CRIADO POR</p>
-                <p>ABRIL 2022<p>
+                <p>@inesserafim</p>
+                <p>ANUAL 2022<p>
             </div>
-            <div>
+            <div class="name-4">
                 <h1>Eterno</h1>
-                <button class="btn"><a href="eterno.html">Explorar este álbum</a></button>
+                <br>
+                <a class="btn" href="eterno.html">Explorar este álbum</a>
             </div>
         </article>
       </section>
+
+
       <footer>
         <div class="left">
           <a href="#"><img src="assets/logo.png"></a>
