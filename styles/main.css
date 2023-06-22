@@ -12,6 +12,7 @@
 @import url('features.css');
 @import url('login.css');
 @import url('carousel.css');
+@import url('albuns.css');
 
 
 :root {
@@ -63,6 +64,11 @@ h1{
 
 .center{
     justify-content: center;
+    display: flex;
+}
+
+.end{
+    justify-content: end;
     display: flex;
 }
 

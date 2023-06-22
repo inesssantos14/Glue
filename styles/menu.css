@@ -50,6 +50,6 @@
     filter: invert(1);
 }
 
-.menu ul li a i:hover {
+.menu ul li i:hover {
     filter: invert(1);
 }
