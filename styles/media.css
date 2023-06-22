@@ -11,3 +11,13 @@ video {
 .img-colagem {
     width: 90%;
  }
+
+ .tape {
+    width: 35rem;
+    height: 35rem;
+    object-fit: cover;
+ }
+
+ .app-mockup {
+    width: 35rem;
+ }
