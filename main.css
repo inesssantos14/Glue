@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;700;800&family=Nunito:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --white: #FAF8F0;
+    --black: #000001;
+    --green: #6D9479;
+    --pink: #FAD6CF;
+
+    --green-gradient: rgba(109, 148, 121, 0.95);
+    --pink-gradient: rgba(250, 214, 207, .95);
+    --white-gradient: rgba(250, 248, 240, .95);
+}
