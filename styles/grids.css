@@ -87,3 +87,109 @@
     margin-left: 75px;
 }
 
+.container-comunidade{
+    margin: 6rem; 
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "page page page"
+      "page page page"
+      "colagem1 info1 name1"
+      "colagem2 info2 name2"
+      "colagem3 info3 name3"
+      "colagem4 info4 name4";
+}
+
+.page-title {
+    grid-area: page;
+}
+
+.colagem-1 {
+    grid-area: colagem1;
+}
+
+.colagem-2 {
+    grid-area: colagem2;
+}
+
+.colagem-3 {
+    grid-area: colagem3;
+}
+
+.colagem-4 {
+    grid-area: colagem4;
+}
+
+.info-1 {
+    grid-area: info1;
+}
+
+.info-2 {
+    grid-area: info2;
+}
+
+.info-3 {
+    grid-area: info3;
+}
+
+.info-4 {
+    grid-area: info4;
+}
+
+.name-1 {
+    grid-area: name1;
+}
+
+.name-2 {
+    grid-area: name2;
+}
+
+.name-3 {
+    grid-area: name3;
+}
+
+.name-4 {
+    grid-area: name4;
+}
+
+.container-sobre{
+    margin: 6rem; 
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "who tape"
+      "time brandkit"
+      "questions envelope";
+}
+
+.quem-somos {
+    grid-area: who;
+}
+
+.tape {
+    grid-area: tape;
+}
+
+.timeline {
+    grid-area: time;
+}
+
+.brandkit {
+    grid-area: brandkit;
+}
+
+.questions {
+    grid-area: questions;
+}
+
+.envelope {
+    grid-area: envelope;
+}
