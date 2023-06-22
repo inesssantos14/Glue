@@ -1,0 +1,51 @@
+.caroussel img {
+    width: 15vw;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.card {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    transition: transform .4s ease;
+    cursor: pointer;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+#item-1:checked ~ .cards #foto-5, #item-2:checked ~ .cards #foto-1, #item-3:checked ~ .cards #foto-2, #item-4:checked ~ .cards #foto-3, #item-5:checked ~ .cards #foto-4 {
+    transform: translatex(0vw) translateY(-10vh) scale(.8);
+    opacity: .8;
+}
+
+#item-1:checked ~ .cards #foto-2, #item-2:checked ~ .cards #foto-3, #item-3:checked ~ .cards #foto-4, #item-4:checked ~ .cards #foto-5, #item-5:checked ~ .cards #foto-1 {
+    transform: translatex(16.5vw)  translateY(-10vh) scale(.8);
+    opacity: .8; 
+}
+
+#item-1:checked ~ .cards #foto-1, #item-2:checked ~ .cards #foto-2, #item-3:checked ~ .cards #foto-3, #item-4:checked ~ .cards #foto-4, #item-5:checked ~ .cards #foto-5 {
+    transform: translatex(9.5vw) translateY(0vh) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+
+#item-1:checked ~ .cards #foto-4, #item-2:checked ~ .cards #foto-5, #item-3:checked ~ .cards #foto-1, #item-4:checked ~ .cards #foto-2, #item-5:checked ~ .cards #foto-3 {
+    transform: translatex(1.5vw) translateY(-17vh) scale(.6);
+    opacity: .6;
+}
+  
+  #item-1:checked ~ .cards #foto-3, #item-2:checked ~ .cards #foto-4, #item-3:checked ~ .cards #foto-5, #item-4:checked ~ .cards #foto-1, #item-5:checked ~ .cards #foto-2 {
+    transform: translatex(12vw) translateY(-17vh) scale(.6);
+    opacity: .6;
+}
