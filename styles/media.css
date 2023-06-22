@@ -12,12 +12,12 @@ video {
     width: 90%;
  }
 
- .tape {
+.tape {
     width: 35rem;
     height: 35rem;
     object-fit: cover;
  }
 
- .app-mockup {
+.image-big {
     width: 35rem;
- }
+}
