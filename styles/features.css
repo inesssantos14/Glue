@@ -1,4 +1,4 @@
-.circular{
+.circle {
     margin-left: 50px;
     position: relative;
     width: 200px;
@@ -7,7 +7,7 @@
     border-radius: 9999px;
 }
 
-.circular img {
+.circle img {
     width: 100%;
     height: auto;
 }
@@ -30,7 +30,7 @@
     align-items: center;
 }
 
-.circular img:hover {
+.circle img:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
 }

@@ -24,8 +24,10 @@
     margin-left: 175px;
 }
 
-.outros-title{
-    margin-bottom: 50px;
+.other-title{
+    margin-bottom: 40px;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 .album1 img, .album2 img, .album3 img{

@@ -96,30 +96,30 @@
     grid-template-areas: 
       "page page page"
       "page page page"
-      "colagem1 info1 name1"
-      "colagem2 info2 name2"
-      "colagem3 info3 name3"
-      "colagem4 info4 name4";
+      "collage1 info1 name1"
+      "collage2 info2 name2"
+      "collage3 info3 name3"
+      "collage4 info4 name4";
 }
 
 .page-title {
     grid-area: page;
 }
 
-.colagem-1 {
-    grid-area: colagem1;
+.collage-1 {
+    grid-area: collage1;
 }
 
-.colagem-2 {
-    grid-area: colagem2;
+.collage-2 {
+    grid-area: collage2;
 }
 
-.colagem-3 {
-    grid-area: colagem3;
+.collage-3 {
+    grid-area: collage3;
 }
 
-.colagem-4 {
-    grid-area: colagem4;
+.collage-4 {
+    grid-area: collage4;
 }
 
 .info-1 {
@@ -168,7 +168,7 @@
       "questions envelope";
 }
 
-.quem-somos {
+.who {
     grid-area: who;
 }
 
@@ -204,7 +204,7 @@
       "title title title title title title"
       "alb alb alb car car car"
       "music music music date date date"
-      "out out out out out out"
+      "other other other other other other"
       "alb1 alb1 alb2 alb2 alb3 alb3";
 }
 
@@ -228,8 +228,8 @@
     grid-area: date;
 }
 
-.outros-title {
-    grid-area: out;
+.other-title {
+    grid-area: other;
 }
 
 .album1 {
