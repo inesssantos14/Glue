@@ -10,6 +10,11 @@ video {
 
 .img-colagem {
     width: 90%;
+}
+
+.img-colagem:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
  }
 
 .tape {
