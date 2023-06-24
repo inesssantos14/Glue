@@ -8,11 +8,11 @@ video {
     border-radius: 30px;
 }
 
-.img-colagem {
+.img-collage {
     width: 90%;
 }
 
-.img-colagem:hover{
+.img-collage:hover{
     animation: shake 0.5s;
     animation-iteration-count: infinite;
  }
