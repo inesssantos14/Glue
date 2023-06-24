@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Site Glue</title>
-
+  <title>Fragmentos</title>
+  <link rel="icon" href="assets/favicon.png">
   <link rel="stylesheet" href="styles/main.css">
 </head>
 
@@ -13,10 +13,10 @@
   <div class="menu">
     <nav class="container-menu">
       <ul>
-        <li><a href="#"><img src="assets/logo.png"></a></li>
+        <li><a href="index.html"><img src="assets/logo.png " alt="Logótipo Glue"></a></li>
         <li><a class="btn" href="comunidade.html">Comunidade</a></li>
         <li><a class="btn" href="sobre.html">Sobre</a></li>
-        <li><a href="#"><i class="fa-solid fa-user fa-2xl" onclick="openForm()"></i></a></li>
+        <li><i class="fa-solid fa-user fa-2xl" onclick="openForm()"></i></li>
       </ul>
           <div class="form-popup" id="myForm">
             <form class="form-container">
@@ -26,7 +26,7 @@
 
           <div class="email">
               <label for="email"><b>Email</b></label>
-              <input type="text" placeholder="Escreve o teu E-mail" name="email" required>
+              <input type="email" placeholder="Escreve o teu E-mail" name="email" required>
             </div>
           <div class="pass">
               <label for="psw"><b>Password</b></label>
@@ -46,7 +46,7 @@
 
     <div class="container-album" >
       <div class="album">
-          <div><img src="assets/fragmentos.png"></div>
+          <div><img src="assets/fragmentos.png" alt="Capa álbum de recortes Fragmentos"></div>
       </div> 
 
       <div class="car">
@@ -58,20 +58,20 @@
           <input type="radio" name="slider" id="item-5">
         <div class="cards">
           <label class="card" for="item-1" id="foto-1">
-          <img src="assets/fragmentos/f1.png">
+          <img src="assets/fragmentos/f1.png" alt="Campo de papoilas">
           </label>
 
           <label class="card" for="item-3" id="foto-3">
-            <img src="assets/fragmentos/f3.png">
+            <img src="assets/fragmentos/f3.png" alt="Thumbnail de vídeo áereo de barcos em águas cristalinas">
           </label>
           <label class="card" for="item-4" id="foto-4">
-            <img src="assets/fragmentos/f4.png">
+            <img src="assets/fragmentos/f4.png" alt="Desenho abstrato a preto e branco">
           </label>
           <label class="card" for="item-5" id="foto-5">
-            <img src="assets/fragmentos/f5.png">
+            <img src="assets/fragmentos/f5.png" alt="Nevoeiro entre as árvores de um vale">
           </label>
           <label class="card" for="item-2" id="foto-2">
-            <img src="assets/fragmentos/f2.png">
+            <img src="assets/fragmentos/f2.png" alt="Conjunto de livros abertos">
           </label>
         </div>
         </div>
@@ -96,7 +96,7 @@
     <h1 class="outros-title">Outros álbuns</h1>
     <article class="album1">
       <div class="square">
-            <img src="assets/genesis.png">
+            <img src="assets/genesis.png" alt="Capa álbum de recortes Génesis">
         </div>
         <div>
             <p>ABRIL 2023</p>
@@ -110,7 +110,7 @@
     </article>
     <article class="album2">
       <div class="square">
-            <img src="assets/ultimamente.png">
+            <img src="assets/ultimamente.png" alt="Capa álbum de recortes Ultimamente">
         </div>
         <div>
             <p>JUNHO 2023</p>
@@ -124,7 +124,7 @@
     </article>
     <article class="album3">
       <div class="square">
-            <img src="assets/eterno.png">
+            <img src="assets/eterno.png" alt="Capa álbum de recortes Eterno">
         </div>
         <div>
             <p>ANUAL 2022</p>
@@ -139,7 +139,7 @@
   </section>
   <footer>
     <div class="left">
-      <a href="#"><img src="assets/logo.png"></a>
+      <a href="#"><img src="assets/logo.png" alt="Logótipo Glue"></a>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
     <br>
       <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
@@ -151,13 +151,11 @@
         <p class="title">Subscreve a nossa newsletter para estar a par de todas as novidades!</p>
 
         <form>
-            <input type="text" placeholder="Escreve o teu e-mail" name="email">
-
-            <ul class="errors"></ul>
+            <input type="email" placeholder="Escreve o teu e-mail" name="email" required>
 
             <br>
 
-            <button type="submit" class="btn">Subscrever</button>
+            <button type="submit" class="btn2">Subscrever</button>
         </form>
 
     </div>

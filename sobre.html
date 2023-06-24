@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Site Glue</title>
-
+  <title>Sobre</title>
+  <link rel="icon" href="assets/favicon.png">
   <link rel="stylesheet" href="styles/main.css">
 </head>
 
@@ -13,10 +13,10 @@
   <div class="menu">
     <nav class="container-menu">
       <ul>
-        <li><a href="#"><img src="assets/logo.png"></a></li>
+        <li><a href="index.html"><img src="assets/logo.png" alt="Logótipo Glue"></a></li>
         <li><a class="btn" href="comunidade.html">Comunidade</a></li>
         <li><a class="btn placed" href="sobre.html">Sobre</a></li>
-        <li><a href="#"><i class="fa-solid fa-user fa-2xl" onclick="openForm()"></i></a></li>
+        <li><i class="fa-solid fa-user fa-2xl" onclick="openForm()"></i></li>
     </ul>
           <div class="form-popup" id="myForm">
             <form class="form-container">
@@ -26,7 +26,7 @@
 
           <div class="email">
               <label for="email"><b>Email</b></label>
-              <input type="text" placeholder="Escreve o teu E-mail" name="email" required>
+              <input type="email" placeholder="Escreve o teu E-mail" name="email" required>
             </div>
           <div class="pass">
               <label for="psw"><b>Password</b></label>
@@ -46,7 +46,7 @@
         <h5>Descrição do conceito</h5>
       </div>
       <div>
-        <img class="video tape" src="assets/fitacola.png"></img>
+        <img class="video tape" src="assets/fitacola.png" alt="Mão a puxar fita-cola"></img>
       </div>
     </div>
   </header>
@@ -71,7 +71,7 @@
     </ul>
     </div>
     <div class="brandkit">
-        <img class="image-big" src="assets/app.png">
+        <img class="image-big" src="assets/app.png" alt="Conjunto de mockups da app Glue em smartphones">
     </div>
     </section>
 
@@ -99,13 +99,13 @@
 
         </div>
         <div class="envelope circular">
-            <img src="assets/envelope.png">
+            <img src="assets/envelope.png" alt="Mão a entregar um envelope a outra mão">
         </div>
     </section>
 
     <footer>
       <div class="left">
-        <a href="#"><img src="assets/logo.png"></a>
+        <a href="#"><img src="assets/logo.png" alt="Logótipo Glue"></a>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       <br>
         <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
@@ -117,13 +117,11 @@
           <p class="title">Subscreve a nossa newsletter para estar a par de todas as novidades!</p>
 
           <form>
-              <input type="text" placeholder="Escreve o teu e-mail" name="email">
-
-              <ul class="errors"></ul>
+              <input type="email" placeholder="Escreve o teu e-mail" name="email" required>
 
               <br>
 
-              <button type="submit" class="btn">Subscrever</button>
+              <button type="submit" class="btn2">Subscrever</button>
           </form>
 
       </div>

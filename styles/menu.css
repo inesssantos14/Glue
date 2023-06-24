@@ -22,28 +22,22 @@
         var(--green-gradient) 40%, 
         var(--white-gradient)
     );
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .14);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .2);
 }
 
 .menu ul {
     margin-top: 25px;
+    margin-right: 10vw;
     align-items: center;
-    justify-content: flex-end; /*corrigir*/
+    justify-content: flex-end;
     display: flex;
     gap: 3.125rem;
 }
 
-.menu ul li a {
-    color: var(--black);
-    transition: all .3s;
-    position: relative;
-    text-decoration: none;
-    cursor: pointer;
-}
 .menu ul li a img{
     width: 100px;
     border-radius: 0px;
-    justify-content: flex-start; /*corrigir*/
+    margin-right: 35vw;
 }
 
 .menu ul li a img:hover{
@@ -52,4 +46,6 @@
 
 .menu ul li i:hover {
     filter: invert(1);
+    cursor: pointer;
 }
+
