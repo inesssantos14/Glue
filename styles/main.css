@@ -28,6 +28,7 @@
     --pink-gradient1: rgba(250, 214, 207, .60);
     --pink-gradient2: rgba(250, 214, 207, .95);
     --white-gradient: rgba(250, 248, 240, .95);
+    --white-gradient1: rgba(250, 248, 240, .75);
 }
 
 * {
