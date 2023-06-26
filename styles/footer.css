@@ -11,12 +11,6 @@ footer img{
     border-radius: 0;
 }
 
-footer img:hover{
-    width: 100px;
-    border-radius: 0;
-    filter: invert(1) ;
-}
-
 footer .form {
     width: 60%;
     margin: 2rem;
