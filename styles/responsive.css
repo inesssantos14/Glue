@@ -2,18 +2,18 @@
 @media only screen and (max-width: 600px) {
 
 .menu.active {
-    display: none;
+  display: none;
 }
 
 .mobile-button {
-    display: block;
-    position: fixed;
-    right: 20px;
-    top: 20px;
-    background: none;
-    border: none;
-    font-size: 2rem;
-    z-index: 100;
+  display: block;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  z-index: 100;
 }
 
 .menu {
@@ -65,25 +65,74 @@
     background: var(--white);
   }
   
-  .form-container h1{
-    margin-top: 30px;
-    margin-bottom: 40px;
-  }
+.form-container h1{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
   
-  .form-container .email{
-    margin-left: 0vw;
-  }
+.form-container .email{
+  margin-left: 0vw;
+}
   
-  .form-container .pass{
-    margin-left: 0vw;
-  }
+.form-container .pass{
+  margin-left: 0vw;
+}
   
-  .form-container button{
-    margin-left: 5.5vw;
-    margin-top: 2vh;
-  }
+.form-container button{
+  margin-left: 5.5vw;
+  margin-top: 2vh;
+}
   
-  
+.container-index {
+  margin: 0 !important;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "cola"
+    "stopmotion"
+    "f-title"
+    "f1"
+    "f2"
+    "f3"
+    "f4"
+    "r_title"
+    "r1"
+    "r2" 
+    "r3"
+    "r4" 
+    "app"
+    "coleciona";
+}  
+
+.item-split1, .item-split2{
+  margin-bottom: 25px;
+}
+
+.item-split4 h1{
+  font-size: 2.5rem !important;
+}
+
+.feature{
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  width: max-content;
+}
+
+.item1, .item2, .item3, .item4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.circle {
+  margin-left: 0 !important;
+}
+
+.review1.feature, .review2.feature, .review3.feature, .review4.feature{
+  width: auto;
+  padding: 0.5rem;
+}
 }
 
 
