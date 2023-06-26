@@ -27,6 +27,11 @@
     font-size: medium;
 }
 
+.panel p {
+    padding: 2rem;
+    text-align: justify;
+}
+
 .accordion:after {
     content: '\02795';
     font-size: 13px;
