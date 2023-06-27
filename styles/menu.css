@@ -52,3 +52,37 @@
 .mobile-button {
     display: none;
 }
+
+/* Small devices (portrait tablets and large phones, >= 600px)  */ 
+@media only screen and (min-width: 600px) and (max-width: 768px){
+
+.menu ul li a img{
+    margin-right: 0;
+}
+
+.menu ul {
+    margin-right: 0px;
+    gap: 2.125rem;
+}
+}
+
+/* Medium devices (portrait tablets, >= 768px)  */ 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+.menu ul li a img{
+    margin-right: 18vw;
+}
+
+.menu ul {
+    margin-right: 0px;
+    gap: 2.125rem;
+}
+}
+
+/* Large devices (laptops/desktops, >= 992px)  */ 
+@media only screen and (min-width: 992px)  and (max-width: 1200px){
+
+.menu ul li a img{
+    margin-right: 20vw;
+}
+}
