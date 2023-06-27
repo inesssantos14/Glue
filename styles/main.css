@@ -17,6 +17,8 @@
 @import url('accordion.css');
 @import url('responsive-index.css');
 @import url('responsive-album.css');
+@import url('responsive-menu.css');
+@import url('responsive-footer.css');
 
 
 :root {
