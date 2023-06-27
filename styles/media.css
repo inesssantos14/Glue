@@ -25,5 +25,6 @@ video {
 
 .image-big {
     width: 35rem;
+    border-radius: 30px;
 }
 
