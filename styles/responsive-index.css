@@ -1,87 +1,5 @@
 /* Extra small devices (phones, <= 600px) */
 @media only screen and (max-width: 600px) {
-
-.menu.active {
-  display: none;
-}
-
-.mobile-button {
-  display: block;
-  position: fixed;
-  right: 20px;
-  top: 20px;
-  background: none;
-  border: none;
-  font-size: 2rem;
-  z-index: 100;
-}
-
-.menu {
-    background: linear-gradient(
-        15deg, 
-        var(--green-gradient) 40%, 
-        var(--white-gradient)
-    );
-    display: none;
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    z-index: 50;
-}
-    
-.menu.show {
-    display: flex;
-}
-
-.menu ul { 
-    flex-direction: column;
-    gap: 1.5rem;  
-}
-
-.form-popup {
-    display: none;
-    background: none;
-    transform: translateY(-30rem);
-  }
-  
-  .form-container {
-    margin-left: 4rem !important;
-    width: 60vw;
-    height: auto;
-    border-radius: 35px;
-    padding: 3rem;
-    background: var(--pink);
-    border: none;
-  
-  }
-  .form-container input[type=email], .form-container input[type=password] {
-    padding: 15px;
-    height: 3.125rem;
-    border-radius: 15px;
-    font-size: 0.8rem !important;
-    font: 1.125rem Nunito, sans-serif;
-    width: 200px;   
-    border: none;
-    background: var(--white);
-  }
-  
-.form-container h1{
-  margin-top: 30px;
-  margin-bottom: 40px;
-}
-  
-.form-container .email{
-  margin-left: 0vw;
-}
-  
-.form-container .pass{
-  margin-left: 0vw;
-}
-  
-.form-container button{
-  margin-left: 5.5vw;
-  margin-top: 2vh;
-}
   
 .container-index {
   margin: 0 !important;
@@ -137,15 +55,62 @@
 
 /* Small devices (portrait tablets and large phones, >= 600px)  */ 
 @media only screen and (min-width: 600px) and (max-width: 768px){
-    
+  
+.container-index {
+  margin: 0 !important;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "cola cola"
+    "stopmotion stopmotion"
+    "f-title f-title"
+    "f1 f2"
+    "f3 f4"
+    "r_title r_title"
+    "r1 r2"
+    "r3 r4"
+    "app app"
+    "coleciona coleciona";
+}  
+
+.item-split1, .item-split2{
+  margin-bottom: 25px;
+}
+
+.review1.feature, .review2.feature, .review3.feature, .review4.feature{
+  width: 90%;
+}
 }
 
 /* Medium devices (portrait tablets, >= 768px)  */ 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-    
+
+.container-index {
+  margin: 0 !important;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "cola cola"
+    "stopmotion stopmotion"
+    "f-title f-title"
+    "f1 f2"
+    "f3 f4"
+    "r_title r_title"
+    "r1 r2"
+    "r3 r4"
+    "app app"
+    "coleciona coleciona";
+}  
+
+.item-split1, .item-split2{
+  margin-bottom: 25px;
+}
 }
 
 /* Large devices (laptops/desktops, >= 992px)  */ 
 @media only screen and (min-width: 992px)  and (max-width: 1200px) {
-    
+
+.circle{
+  margin-left: 5px;
+}
 }
