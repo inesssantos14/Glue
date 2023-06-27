@@ -1,0 +1,113 @@
+/* Extra small devices (phones, <= 600px) */
+@media only screen and (max-width: 600px) {
+  
+    .container-comunidade {
+      margin: 0 !important;
+      padding: 3rem !important;
+      display: flex;
+      flex-direction: column;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-template-areas: 
+      "page"
+      "page"
+      "collage1"
+      "info1"
+      "name1"
+      "collage2"
+      "info2"
+      "name2"
+      "collage3"
+      "info3"
+      "name3"
+      "collage4"
+      "info4"
+      "name4"
+      !important;
+    }
+    
+    .page-title {
+        margin-top: 2rem;
+    }
+
+    .name-1, .name-2, .name-3, .name-4 {
+      margin-top: 1.5rem !important;
+    }
+
+    .info-1, .info-2, .info-3, .info-4 {
+        display: none;
+    }
+
+      
+}
+
+/* Small devices (portrait tablets and large phones, >= 600px)  */ 
+@media only screen and (min-width: 600px) and (max-width: 768px){
+
+    .container-comunidade {
+        margin: 0 !important;
+        margin-top: 5rem !important;
+        padding: 3rem !important;
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "page"
+        "page"
+        "collage1"
+        "info1"
+        "name1"
+        "collage2"
+        "info2"
+        "name2"
+        "collage3"
+        "info3"
+        "name3"
+        "collage4"
+        "info4"
+        "name4"
+        !important;
+    }
+      
+    .info-1, .info-2, .info-3, .info-4 {
+        margin-top: 1.2rem !important;
+    }  
+    
+    h1 {
+        font-size: 4rem !important;
+        margin-top: 1.5rem !important;
+    }
+
+    p {
+        font-size: 1.5rem !important;
+    }
+
+    .btn {
+        font-size: 1.1rem !important;
+    }
+    
+
+    
+}
+    
+/* Medium devices (portrait tablets, >= 768px)  */ 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    
+    .container-comunidade {
+        margin: 2rem !important;
+        margin-top: 4rem !important;
+    }
+
+    .page-title {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+     
+
+}
+
+    
