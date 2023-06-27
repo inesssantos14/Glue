@@ -6,11 +6,6 @@
     width: 450px;
 }
 
-.music{
-    display: flex;
-    flex-wrap: nowrap;
-}
-
 .music i{
     margin-top: 17px;
 }
@@ -40,11 +35,12 @@
  }
 
  .square{
-    width: 260px;
+    width: fit-content;
     height: 220px;
     border-radius: 15px;
     background-color: var(--white);
-    padding:0.5rem;
+    padding-left:0.75rem;
+    padding-right:0.75rem;
     display: flex;
     margin-bottom: 30px;
 
@@ -54,3 +50,9 @@
     object-fit: cover;
     align-self: center;
  }
+
+iframe{
+    width: 85%;
+    height: 200;
+    border-radius:12px
+}
