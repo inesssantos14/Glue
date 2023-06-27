@@ -1,0 +1,193 @@
+/* Extra small devices (phones, <= 600px) */
+@media only screen and (max-width: 600px) {
+  
+    .container-sobre {
+      margin: 0 !important;
+      padding: 0 !important;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-template-areas: 
+      "who"
+      "brandkit"
+      "time"
+      "envelope"
+      "questions";
+    }  
+    
+    .tape {
+      display: none;
+    }
+    
+    .who {
+      font-size: 1.5rem !important;
+      margin: 0 !important;
+      padding: 2rem !important;
+      width: 100vw;
+
+    }
+    
+    .image-big {
+      padding: 2rem !important;
+      width: 100vw !important;
+      border-radius: 50px !important;
+    }
+    
+    .timeline {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      align-content: left;
+      padding: 1rem;
+    }
+
+    .title  {
+        font-size: 1rem !important;
+     }
+ 
+     .date {
+         font-size: 1rem !important;
+     }
+     
+     .text  {
+         font-size: 1rem !important;
+     }
+    
+    .envelope {
+      display: none;
+    }
+
+    .questions {
+        margin-bottom: 1rem;
+    }
+  
+}
+    /* Small devices (portrait tablets and large phones, >= 600px)  */ 
+    @media only screen and (min-width: 600px) and (max-width: 768px){
+      
+    .container-sobre {
+      margin: 0 !important;
+      padding: 0rem !important;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-template-areas: 
+      "who"
+      "brandkit"
+      "time"
+      "questions"
+      "envelope";
+    }  
+
+    .who{
+        font-size: 1.5rem !important;
+        margin: 0 !important;
+        padding: 3rem !important;
+        width: 90vw;
+    }
+    
+    .timeline {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-content: left;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .title  {
+       font-size: 1.70rem !important;
+    }
+
+    .date {
+        font-size: 1.5rem !important;
+    }
+
+    .text  {
+        font-size: 1rem !important;
+    }
+
+   .questions {
+    margin-bottom: 1.5rem !important;
+   }
+    
+
+    
+}
+    
+/* Medium devices (portrait tablets, >= 768px)  */ 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    
+    .container-sobre {
+      margin: 0 !important;
+      padding: 0 !important;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      grid-template-areas: 
+      "who tape"
+      "time time"
+      "brandkit brandkit"
+      "questions questions" !important;
+      justify-content: space-between !important;
+    }  
+
+    .who {
+        padding: 2.5rem !important;
+        width: 60vw;
+    }
+
+    .tape {
+        width: 35vw;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .timeline {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-content: left;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .image-big {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+        margin-bottom: 2rem !important;
+        width: 100vw !important;
+        border-radius: 15% !important;
+    }
+
+    .title  {
+        font-size: 1.80rem !important;
+    }
+ 
+    .date {
+        font-size: 1.5.rem !important;
+    }
+
+    .text  {
+        font-size: 1.5rem !important;
+    }
+
+    .envelope {
+        display: none;
+    }
+
+    .accordion {
+        font-size: 1.70rem;
+    }
+
+    .panel {
+        font-size: 1.2rem;
+    }
+
+}
+
+    
+/* Large devices (laptops/desktops, >= 992px)  */ 
+@media only screen and (min-width: 992px)  and (max-width: 1200px) {
+    
+    .circle{
+      margin-left: 5px;
+    }
+}
