@@ -6,15 +6,6 @@
     width: 450px;
 }
 
-.music i{
-    margin-top: 17px;
-}
-
-.music p{
-    margin-left: 15px;
-    font-size: 1.5rem;
-}
-
 .data{
     margin-left: 175px;
 }
@@ -52,7 +43,5 @@
  }
 
 iframe{
-    width: 85%;
-    height: 200;
     border-radius:12px
 }
