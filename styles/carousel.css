@@ -1,6 +1,6 @@
 .carousel img {
     width: 65%;
-    height: auto;
+    height: 150px;
     object-fit: cover;
     border-radius: 10px;
 }
