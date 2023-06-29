@@ -1,4 +1,3 @@
-window.addEventListener('scroll', handleWindowScroll);
 form.addEventListener('submit', handleFormSubmit);
 
 function openForm() {
