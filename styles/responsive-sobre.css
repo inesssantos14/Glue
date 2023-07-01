@@ -93,6 +93,22 @@
         padding: 1rem;
     }
 
+    .tape {
+        display: none;
+    }
+
+    .envelope {
+        display: none;
+    }
+
+    .brandkit {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+        margin-bottom: 2rem !important;
+        width: 90vw !important;
+        border-radius: 15% !important;
+    }
+
     .title  {
        font-size: 1.70rem !important;
     }
@@ -102,12 +118,15 @@
     }
 
     .text  {
-        font-size: 1rem !important;
+        font-size: 1.7rem !important;
     }
 
    .questions {
     margin-bottom: 1.5rem !important;
    }
+
+
+
     
 
     
@@ -162,7 +181,7 @@
     }
  
     .date {
-        font-size: 1.5.rem !important;
+        font-size: 1.5rem !important;
     }
 
     .text  {
@@ -178,7 +197,7 @@
     }
 
     .panel {
-        font-size: 1.2rem;
+        font-size: 5rem;
     }
 
 }
@@ -190,4 +209,33 @@
     .circle{
       margin-left: 5px;
     }
+}
+
+/* Large devices (laptops/desktops, >= 992px)  */ 
+@media only screen and (min-width: 992px)  and (max-width: 1200px) {
+
+    .image-big {
+        width: 35vw;
+        height: 35vw;
+        margin-left: 2rem !important;
+    }
+
+    .tape {
+        width: 30vw;
+        height: 40vw;
+        margin-left: 2rem !important;
+    }
+
+    .title  {
+        font-size: 1.3rem !important;
+    }
+ 
+    .date {
+        font-size: 1.3rem !important;
+    }
+
+    .text {
+        font-size: 1.3rem !important;
+    }
+
 }
