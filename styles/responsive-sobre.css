@@ -57,10 +57,9 @@
     }
 
     .questions {
-        margin-bottom: 1rem;
+        margin-bottom: 5rem;
     }
-  
-}
+  }
     /* Small devices (portrait tablets and large phones, >= 600px)  */ 
     @media only screen and (min-width: 600px) and (max-width: 768px){
       
@@ -119,17 +118,12 @@
 
     .text  {
         font-size: 1.7rem !important;
+    }   
+    
+    .questions {
+        margin-bottom: 5rem;
     }
-
-   .questions {
-    margin-bottom: 1.5rem !important;
-   }
-
-
-
-    
-
-    
+  
 }
     
 /* Medium devices (portrait tablets, >= 768px)  */ 

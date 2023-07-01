@@ -110,7 +110,15 @@
 /* Large devices (laptops/desktops, >= 992px)  */ 
 @media only screen and (min-width: 992px)  and (max-width: 1200px) {
 
+.container-index{
+  margin:0;
+}
 .circle{
   margin-left: 5px;
 }
+
+.item4 .circle{
+  transform: translateY(-10px);
+}
+
 }

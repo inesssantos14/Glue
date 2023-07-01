@@ -32,7 +32,7 @@
 
 .album1 .btn, .album2 .btn, .album3 .btn{
     margin-top: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
  }
 
 .other-title{
@@ -91,6 +91,15 @@
 .album img{
     width: 100%;
     margin-bottom: 10rem;
+}
+
+.album1 .btn, .album2 .btn, .album3 .btn{
+    margin-top: 25px;
+    margin-bottom: 60px;
+ }
+
+.container-album article{
+    margin-left: 50px;
 }
 
 .music{

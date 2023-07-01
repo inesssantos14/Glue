@@ -10,7 +10,6 @@
       grid-template-rows: auto;
       grid-template-areas: 
       "page"
-      "page"
       "collage1"
       "info1"
       "name1"
@@ -22,17 +21,22 @@
       "name3"
       "collage4"
       "info4"
-      "name4"
-      !important;
+      "name4";
     }
     
+
     .page-title {
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
 
     .name-1, .name-2, .name-3, .name-4 {
       margin-top: 1.5rem !important;
     }
+
+    .name-1 h1, .name-1 a, .name-2 h1, .name-2 a, .name-3 h1, .name-3 a, .name-4 h1, .name-4 a{
+        justify-content: center;
+        display: flex;
+    } 
 
     .info-1, .info-2, .info-3, .info-4 {
         display: none;
@@ -73,6 +77,11 @@
     .info-1, .info-2, .info-3, .info-4 {
         margin-top: 1.2rem !important;
     }  
+
+    .name-1 h1, .name-1 a, .name-2 h1, .name-2 a, .name-3 h1, .name-3 a, .name-4 h1, .name-4 a{
+        justify-content: center;
+        display: flex;
+    }    
     
     h1 {
         font-size: 4rem !important;
@@ -108,7 +117,20 @@
         font-size: 1.3rem;
     }
      
+    .name-1 h1, .name-2 h1, .name-3 h1, .name-4 h1{
+        justify-content: center;
+        display: flex;
+        font-size: 2rem;
+    }
+}
+/* Large devices (laptops/desktops, >= 992px)  */ 
+@media only screen and (min-width: 992px)  and (max-width: 1200px) {
 
+    .name-1 a, .name-2 a, .name-3 a, .name-4 a{
+        justify-content: center;
+        display: flex;
+    }
+    
 }
 
     
