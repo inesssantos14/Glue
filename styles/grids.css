@@ -1,8 +1,8 @@
 .container-index {
     margin: 6rem; 
-    display: flex;
     align-items: center;
     padding: 3rem;
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -17,42 +17,43 @@
 
 .item-split1 {
     grid-area: cola;
-  }
+}
 
 .item-split2{
     grid-area: stopmotion;
-  }
-  .item-b {
+}
+.item-b {
     grid-area: main;
-  }
-  .item-c {
+}
+.item-c {
     grid-area: sidebar;
-  }
-  .item-d {
-    grid-area: footer;
-  }
+}
 
-.item-title{
+.item-d {
+    grid-area: footer;
+}
+
+.item-title {
     grid-area: f-title;
 }
 
-.item1{
+.item1 {
     grid-area: f1
 }
 
-.item2{
+.item2 {
     grid-area: f2
 }
 
-.item3{
+.item3 {
     grid-area: f3
 }
 
-.item4{
+.item4 {
     grid-area: f4
 }
 
-.review-title{
+.review-title {
     grid-area: r_title;
 }
 
@@ -85,9 +86,8 @@
     margin-left: 75px;
 }
 
-.container-comunidade{
+.container-comunidade {
     margin: 6rem; 
-    display: flex;
     align-items: center;
     padding: 3rem;
     display: grid;
@@ -154,14 +154,8 @@
     grid-area: name4;
 }
 
-
-.name-1 .btn, .name-2 .btn, .name-3 .btn, .name-4 .btn{
-    margin-top: 1.5rem;
-}
-
 .container-sobre{
     margin: 6rem; 
-    display: flex;
     align-items: center;
     padding: 3rem;
     display: grid;
@@ -199,7 +193,6 @@
 
 .container-album{
     margin-left: 6rem; 
-    display: flex;
     align-items: center;
     padding: 3rem;
     display: grid;

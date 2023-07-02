@@ -42,7 +42,7 @@
   }
   
  .form-container {
-    margin-left: 2.5rem !important;
+    margin-left: 2.5rem;
     width: 70vw;
     height: auto;
     padding: 3rem;
@@ -57,11 +57,12 @@
 .form-container .email, .form-container .pass{
     display: block;
     margin-right: 0;
-  }
+}
 
 .form-container input[type=email], .form-container input[type=password] {
     width: 100%;
 }
+
 .form-container button{
     margin-right: 0;
 }

@@ -60,11 +60,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-ol, ul {
+ul {
     padding: 0;
     list-style: none;
 }
@@ -74,7 +70,7 @@ h1{
 }
 
 .bold {
-    font-weight: 700 !important;
+    font-weight: 700;
 }
 
 .center{

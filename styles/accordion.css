@@ -4,9 +4,7 @@
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    text-align: center;
     border: none;
-    outline: none;
     transition: 0.4s;
     font: 400 1.125rem Nunito, sans-serif;
 }
@@ -35,7 +33,6 @@
 .accordion:after {
     content: '\02795';
     font-size: 13px;
-    color: var(--green-gradient);
     float: right;
     margin-left: 5px;
 }

@@ -1,63 +1,12 @@
 /* Extra small devices (phones, <= 600px) */
 @media only screen and (max-width: 600px) {
   
-    .container-comunidade {
-      margin: 0 !important;
-      padding: 3rem !important;
-      display: flex;
-      flex-direction: column;
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
-      grid-template-areas: 
-      "page"
-      "collage1"
-      "info1"
-      "name1"
-      "collage2"
-      "info2"
-      "name2"
-      "collage3"
-      "info3"
-      "name3"
-      "collage4"
-      "info4"
-      "name4";
-    }
-    
-
-    .page-title {
-        margin-top: 4rem;
-    }
-
-    .name-1, .name-2, .name-3, .name-4 {
-      margin-top: 1.5rem !important;
-    }
-
-    .name-1 h1, .name-1 a, .name-2 h1, .name-2 a, .name-3 h1, .name-3 a, .name-4 h1, .name-4 a{
-        justify-content: center;
-        display: flex;
-    } 
-
-    .info-1, .info-2, .info-3, .info-4 {
-        display: none;
-    }
-
-      
-}
-
-/* Small devices (portrait tablets and large phones, >= 600px)  */ 
-@media only screen and (min-width: 600px) and (max-width: 768px){
-
-    .container-comunidade {
-        margin: 0 !important;
-        margin-top: 5rem !important;
-        padding: 3rem !important;
-        display: flex;
-        flex-direction: column;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        grid-template-areas: 
-        "page"
+.container-comunidade {
+    margin: 0;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
         "page"
         "collage1"
         "info1"
@@ -70,67 +19,118 @@
         "name3"
         "collage4"
         "info4"
-        "name4"
-        !important;
-    }
+        "name4";
+}
+    
+
+.page-title {
+    margin-top: 4rem;
+}
+
+.name-1, .name-2, .name-3, .name-4 {
+    margin-top: 1.5rem;
+}
+
+.name-1 h1, .name-1 a, .name-2 h1, .name-2 a, .name-3 h1, .name-3 a, .name-4 h1, .name-4 a{
+    justify-content: center;
+    display: flex;
+} 
+
+.info-1, .info-2, .info-3, .info-4 {
+    display: none;
+}      
+}
+
+/* Small devices (portrait tablets and large phones, >= 600px)  */ 
+@media only screen and (min-width: 600px) and (max-width: 768px){
+
+.container-comunidade {
+    margin: 0;
+    margin-top: 5rem;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "page"
+        "collage1"
+        "info1"
+        "name1"
+        "collage2"
+        "info2"
+        "name2"
+        "collage3"
+        "info3"
+        "name3"
+        "collage4"
+        "info4"
+        "name4";
+}
       
-    .info-1, .info-2, .info-3, .info-4 {
-        margin-top: 1.2rem !important;
-    }  
+.info-1, .info-2, .info-3, .info-4 {
+    margin-top: 1.2rem;
+    text-align: center;
+}  
 
-    .name-1 h1, .name-1 a, .name-2 h1, .name-2 a, .name-3 h1, .name-3 a, .name-4 h1, .name-4 a{
-        justify-content: center;
-        display: flex;
-    }    
+.name-1 h1, .name-1 a, .name-2 h1, .name-2 a, .name-3 h1, .name-3 a, .name-4 h1, .name-4 a{
+    justify-content: center;
+    display: flex;
+}    
     
-    h1 {
-        font-size: 4rem !important;
-        margin-top: 1.5rem !important;
-    }
+h1 {
+    font-size: 4rem;
+    margin-top: 1.5rem;
+}
 
-    p {
-        font-size: 1.5rem !important;
-    }
+p {
+    font-size: 1.5rem;
+}
 
-    .btn {
-        font-size: 1.1rem !important;
-    }
-    
-
-    
+.btn {
+    font-size: 1.1rem;
+}   
 }
     
 /* Medium devices (portrait tablets, >= 768px)  */ 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     
-    .container-comunidade {
-        margin: 2rem !important;
-        margin-top: 4rem !important;
-    }
+.container-comunidade {
+    margin: 2rem;
+    margin-top: 4rem;
+}
 
-    .page-title {
-        font-size: 3rem;
-        margin-top: 1.7rem !important;
-    }
+.page-title {
+    font-size: 3rem;
+    margin-top: 1.7rem;
+}
 
-    p {
-        font-size: 1.3rem;
-    }
+p {
+    font-size: 1.3rem;
+}
      
-    .name-1 h1, .name-2 h1, .name-3 h1, .name-4 h1{
-        justify-content: center;
-        display: flex;
-        font-size: 2rem;
-    }
+.name-1, .name-2, .name-3, .name-4{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name-1 h1, .name-2 h1, .name-3 h1, .name-4 h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
 }
 /* Large devices (laptops/desktops, >= 992px)  */ 
 @media only screen and (min-width: 992px)  and (max-width: 1200px) {
 
-    .name-1 a, .name-2 a, .name-3 a, .name-4 a{
-        justify-content: center;
-        display: flex;
-    }
-    
+.name-1, .name-2, .name-3, .name-4{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name-1 h1, .name-2 h1, .name-3 h1, .name-4 h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
 }
 
     

@@ -6,6 +6,7 @@ footer {
     padding: 4rem 4rem 1rem 4rem;
     color: var(--black);
 }
+
 footer img{
     width: 100px;
     border-radius: 0;
@@ -49,7 +50,6 @@ footer {
     display: grid;
     grid-template-columns: 35% 65%;
     grid-template-rows: 80% 20%;
-    justify-content: center;
 }
 
 footer .left {
