@@ -6,7 +6,8 @@
     );
     height: 3.125rem;
     border-radius: 9999px;
-    font: 0.8rem Nunito, sans-serif;
+    font-size: 0.8rem !important;
+    font: Nunito, sans-serif;
     padding: 1rem;
     min-width: 170px;
     max-width:fit-content;
@@ -36,7 +37,8 @@
     background: var(--black);
     height: 3.25rem;
     border-radius: 50px;
-    font: 0.9rem Nunito, sans-serif;
+    font-size: 0.9rem !important;
+    font: Nunito, sans-serif;
     padding: 1rem;
     min-width: 170px;
     max-width:fit-content;
