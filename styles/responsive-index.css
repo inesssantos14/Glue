@@ -22,6 +22,10 @@
     "coleciona";
 }  
 
+.item-split1 .btn{
+  font-size: 0.7rem !important;
+}
+
 .item-split1, .item-split2{
   margin-bottom: 25px;
 }
@@ -36,6 +40,11 @@
 
 .item-split4 a{
   margin-bottom: 20px;
+}
+
+.item-title{
+  font-size: 2rem;
+  padding: 1rem;
 }
 
 .item1, .item2, .item3, .item4{
@@ -110,6 +119,14 @@
 .item-split1, .item-split2{
   margin-bottom: 25px;
 }
+
+.item1, .item2, .item3, .item4{
+  margin-left: 40px;
+}
+
+.item1 p, .item2 p, .item3 p, .item4 p{
+  margin-left: 0;
+}
 }
 
 /* Large devices (laptops/desktops, >= 992px)  */ 
@@ -118,6 +135,11 @@
 .container-index{
   margin:0;
 }
+
+.item-title{
+  margin: 5rem 0 5rem 0;
+}
+
 .circle{
   margin-left: 5px;
 }
