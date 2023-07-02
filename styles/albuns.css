@@ -12,36 +12,32 @@
 
 .other-title{
     margin-bottom: 40px;
-    display: inline-block;
-    white-space: nowrap;
 }
 
-.album1 img, .album2 img, .album3 img{
+.album1 img, .album2 img, .album3 img {
    width: 250px;
 
 }
 
-.album1 .btn, .album2 .btn, .album3 .btn{
+.album1 .btn, .album2 .btn, .album3 .btn {
     margin-top: 50px;
- }
+}
 
- .square{
-    width: fit-content;
-    height: 220px;
-    border-radius: 15px;
-    background-color: var(--white);
-    padding-left:0.75rem;
-    padding-right:0.75rem;
-    display: flex;
-    margin-bottom: 30px;
+.square {
+   width: fit-content;
+   height: 220px;
+   border-radius: 15px;
+   background-color: var(--white);
+   padding-left:0.75rem;
+   padding-right:0.75rem;
+   display: flex;
+   margin-bottom: 30px;
+}
 
- }
+.square img {
+   align-self: center;
+}
 
- .square img{
-    object-fit: cover;
-    align-self: center;
- }
-
-iframe{
-    border-radius:12px
+iframe {
+   border-radius:12px
 }

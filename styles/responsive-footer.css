@@ -20,7 +20,6 @@ footer .right {
 footer .credit {
     grid-row: 3;
     grid-column: 1;
-    font-size: smaller;
 }
 
 footer .left p{
@@ -35,5 +34,4 @@ footer .form {
 footer .form p{
     margin-bottom: 15px !important;
 }
-
 }

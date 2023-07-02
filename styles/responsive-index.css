@@ -2,7 +2,7 @@
 @media only screen and (max-width: 600px) {
   
 .container-index {
-  margin: 0 !important;
+  margin: 0;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-template-areas: 
@@ -26,14 +26,16 @@
   margin-bottom: 25px;
 }
 
-.item-split4 h1{
-  font-size: 2.5rem !important;
+.item-split4{
+  margin-left: 2rem;
 }
 
-.feature{
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
-  width: max-content;
+.item-split4 h1{
+  font-size: 2.5rem;
+}
+
+.item-split4 a{
+  margin-bottom: 20px;
 }
 
 .item1, .item2, .item3, .item4{
@@ -44,7 +46,7 @@
 }
 
 .circle {
-  margin-left: 0 !important;
+  margin-left: 0;
 }
 
 .review1.feature, .review2.feature, .review3.feature, .review4.feature{
@@ -57,7 +59,7 @@
 @media only screen and (min-width: 600px) and (max-width: 768px){
   
 .container-index {
-  margin: 0 !important;
+  margin: 0;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: 
@@ -73,6 +75,9 @@
     "coleciona coleciona";
 }  
 
+.item-title{
+  padding: 2rem;
+}
 .item-split1, .item-split2{
   margin-bottom: 25px;
 }
@@ -86,7 +91,7 @@
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 
 .container-index {
-  margin: 0 !important;
+  margin: 0;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: 
@@ -121,4 +126,7 @@
   transform: translateY(-10px);
 }
 
+.item-split4 {
+  margin-left: 0px;
+}
 }
