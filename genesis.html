@@ -43,54 +43,54 @@
   </button>
 
   <section>
-    <div class="container-album">
+    <div class="container-album fade">
       <h1 class="album-title">Génesis</h1>
     </div>
 
     <div class="container-album">
-      <div class="album">
+      <div class="album fade">
         <div><img src="assets/genesis.png" alt="Capa álbum de recortes Génesis"></div>
-    </div>
-
-    <div class="car">
-      <div class="carousel">
-        <input type="radio" name="slider" id="item-1" checked>
-        <input type="radio" name="slider" id="item-2">
-        <input type="radio" name="slider" id="item-3">
-        <input type="radio" name="slider" id="item-4">
-        <input type="radio" name="slider" id="item-5">
-
-      <div class="cards">
-        <label class="card" for="item-1" id="foto-1">
-          <img src="assets/genesis/g1.png" alt="Três bailarinas e num canto a capa de um vinil">
-        </label>
-
-        <label class="card" for="item-3" id="foto-3">
-          <img src="assets/genesis/g3.png" alt="Rolo de bilhetes de cinema">
-        </label>
-
-        <label class="card" for="item-4" id="foto-4">
-          <img src="assets/genesis/g4.png" alt="Pessoa a ler um guião">
-        </label>
-
-        <label class="card" for="item-5" id="foto-5">
-          <img src="assets/genesis/g5.png" alt="Ingredientes para uma receita vegetariana">
-        </label>
-        
-        <label class="card" for="item-2" id="foto-2">
-          <img src="assets/genesis/g2.png" alt="Processo de uma receita de um bolo">
-        </label>
       </div>
-    </div>
-    </div>
+
+      <div class="car">
+        <div class="carousel">
+          <input type="radio" name="slider" id="item-1" checked>
+          <input type="radio" name="slider" id="item-2">
+          <input type="radio" name="slider" id="item-3">
+          <input type="radio" name="slider" id="item-4">
+          <input type="radio" name="slider" id="item-5">
+
+        <div class="cards">
+          <label class="card" for="item-1" id="foto-1">
+            <img class="slide" src="assets/genesis/g1.png" alt="Três bailarinas e num canto a capa de um vinil">
+          </label>
+
+          <label class="card" for="item-3" id="foto-3">
+            <img class="slide" src="assets/genesis/g3.png" alt="Rolo de bilhetes de cinema">
+          </label>
+
+          <label class="card" for="item-4" id="foto-4">
+            <img class="slide" src="assets/genesis/g4.png" alt="Pessoa a ler um guião">
+          </label>
+
+          <label class="card" for="item-5" id="foto-5">
+            <img class="slide" src="assets/genesis/g5.png" alt="Ingredientes para uma receita vegetariana">
+          </label>
+          
+          <label class="card" for="item-2" id="foto-2">
+            <img class="slide" src="assets/genesis/g2.png" alt="Processo de uma receita de um bolo">
+          </label>
+        </div>
+      </div>
+      </div>
     </div>
 
     <div class="container-album">
-      <div class="music">
+      <div class="music fade">
         <iframe src="https://open.spotify.com/embed/track/0PfSBfYfrnqknxSwrSS1iC?utm_source=generator&theme=0" width="85%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </div>
 
-      <div class="data">
+      <div class="data fade">
         <p class="bold">ABRIL 2023</p>
         <p>Publicado em 22/05/2023</p>
         <p>CRIADO POR: @joanagomes</p>
@@ -100,8 +100,8 @@
   </section>
 
   <section class="container-album">
-    <h1 class="other-title">Outros álbuns</h1>
-    <article class="album1">
+    <h1 class="other-title fade">Outros álbuns</h1>
+    <article class="album1 slide">
       <div class="square">
         <img src="assets/fragmentos.png" alt="Capa álbum de recortes Fragmentos">
       </div>
@@ -115,7 +115,7 @@
       </div>
     </article>
 
-    <article class="album2">
+    <article class="album2 slide">
       <div class="square">
         <img src="assets/ultimamente.png" alt="Capa álbum de recortes Ultimamente">
       </div>
@@ -129,7 +129,7 @@
       </div>
     </article>
 
-    <article class="album3">
+    <article class="album3 slide">
       <div class="square">
         <img src="assets/eterno.png" alt="Capa álbum de recortes Eterno">
       </div>
@@ -171,6 +171,7 @@
 
   <script src="scripts/menu.js"></script>
   <script src="scripts/login.js"></script>
+  <script src="scripts/animations.js"></script>
   
 </body>
 </html>
